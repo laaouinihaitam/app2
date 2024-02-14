@@ -39,7 +39,7 @@ names=["Mohammed Rahmouni","Mourad Bouchnaf","Haitam Laaouini"]
 usernames =["rahmouni","bouchnaf","laaouini"]
 
 # load hashed passwords
-file_path = Path("C:/Users/LOGION/Desktop/haiiitam/hashed_pw.pkl")
+file_path = Path("C:/Users/LOGION/Desktop/a2pp/hashed_pw.pkl")
 with file_path.open("rb") as file :
     hashed_passwords = pickle.load(file)
 authenticator = stauth.Authenticate(names, usernames, hashed_passwords,"excel_plotter","abcdef",0)
